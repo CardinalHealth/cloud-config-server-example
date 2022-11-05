@@ -8,6 +8,10 @@ eureka:
       hostname: localhost
       
 microservice:
+  gateway-service:
+    endpoints:
+      endpoint:
+        uri: http://GATEWAY-SERVICE/product
   product-service:
     endpoints:
       endpoint:
