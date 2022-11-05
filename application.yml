@@ -15,17 +15,17 @@ microservice:
   product-service:
     endpoints:
       endpoint:
-        uri: http://PRODUCT-SERVICE/product
+        uri: http://GATEWAY-SERVICE/product
   inventory-service:
     endpoints:
       endpoint:
-        uri: http://INVENTORY-SERVICE/inventory
+        uri: http://GATEWAY-SERVICE/inventory
   order-service:
     endpoints:
       endpoint:
-        uri: http://ORDER-SERVICE/order
+        uri: http://GATEWAY-SERVICE/order
   payment-service:
     endpoints:
       endpoint:
-        uri: http://PAYMENT-SERVICE/payment
+        uri: http://GATEWAY-SERVICE/payment
       
