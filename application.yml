@@ -7,3 +7,21 @@ eureka:
     instance:
       hostname: localhost
       
+microservice:
+  product-service:
+    endpoints:
+      endpoint:
+        uri: http://PRODUCT-SERVICE/product
+  inventory-service:
+    endpoints:
+      endpoint:
+        uri: http://INVENTORY-SERVICE/inventory
+  order-service:
+    endpoints:
+      endpoint:
+        uri: http://ORDER-SERVICE/order
+  payment-service:
+    endpoints:
+      endpoint:
+        uri: http://PAYMENT-SERVICE/payment
+      
